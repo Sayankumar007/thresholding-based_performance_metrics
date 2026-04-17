@@ -33,8 +33,8 @@ Disasters present enormous obstacles for humanity and demand prompt and precise 
 
 This research aims to enhance the transparency and trustworthiness of AI models deployed on disaster datasets, ultimately contributing to more effective and accountable disaster response efforts. The CAM efficiency varies from model to model due to the high intensity of the disaster dataset. Some models are good with GradCAM while some are good with ScoreCam. We use disaster datasets to validate the system efficacy and trustworthiness of a given model i.e. Vgg19, ResNet152, GoogleNet, DenseNet121, EfficientNet, and ConvNeXt along with considering Vision Transformer (ViT) and Swin Transformer (Swin) with not only score of Avg. Drop, Increase Confidence, and Win but also a score of precision, recall, and F-measure. 
 
-The source code will be made available publicly at 
-![https://github.com/Sayankumar007/thresholding-based_performance_metrics](https://github.com/Sayankumar007/thresholding-based_performance_metrics).
+The source code will be made available publicly at :
+https://github.com/Sayankumar007/thresholding-based_performance_metrics.
 
 
 
