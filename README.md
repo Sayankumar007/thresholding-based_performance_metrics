@@ -142,34 +142,20 @@ Despite multi-platform testing, the experimental pipeline, evaluation metrics, a
 Run the `run.py` script to train/evaluate models:
 
 ```bash
-python run.py <folder_name> <model_name> <root_dir> [--epochs N] [--lr LR] [--n N] [--visualize]
+python run.py <dataset_name> [--epochs N] [--dir dataset_dir]
 ```
 
 #### Arguments:
 
-`folder_name` : Output folder to save `results`, PR curves, and visualizations
-
-`model_name` : CNN model to run (vgg, resnet, googlenet, mobilenet, efficientnet, densenet)
-
-`root_dir` : Root directory of the dataset (must include train, val, test subfolders)
-
-#### Optional:
+`dataset_name` : Dataset name to run CNN Models
 
 `--epochs` : Number of training epochs (default: 100)
 
-`--lr` : Learning rate (default: 0.00001)
-
-`--n` : Number of samples to visualize (default: 1)
-
-`--visualize` : Save intermediate visualizations of saliency maps
+`--dir` : Root directory of the dataset (must include train, val, test subfolders)
 
 Example:
 ```bash
-python run.py results resnet ./RAF-DB --epochs 50 --lr 0.001 --n 5 --visualize
-```
-or simply
-```bash
-python run.py results resnet ./RAF-DB
+python run.py Disaster --epochs 50
 ```
 
 ## Citations
