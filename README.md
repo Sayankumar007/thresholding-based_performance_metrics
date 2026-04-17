@@ -86,8 +86,8 @@ Make sure Python 3.8+ is installed. Recommended to use a virtual environment.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sayankumar007/FER-XAI-ThreshEvalMetrics.git
-cd FER-XAI-ThreshEvalMetrics
+git clone https://github.com/Sayankumar007/thresholding-based_performance_metrics.git
+cd thresholding-based_performance_metrics
 ```
 
 ## Environment & Reproducibility
